@@ -13662,6 +13662,18 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 2139218191}
+    - target: {fileID: 7450303374373276233, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450303374373276233, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450303374373276342, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7450303375066787473, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
