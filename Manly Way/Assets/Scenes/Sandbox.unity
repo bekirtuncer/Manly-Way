@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &133473307 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3750613343266278643, guid: f10d038d076f6094fa58dab3f3a2e116, type: 3}
+  m_PrefabInstance: {fileID: 3750613343533204522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619084301
 GameObject:
   m_ObjectHideFlags: 0
@@ -13637,6 +13642,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 602805690195614050, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 2139218191}
+    - target: {fileID: 602805690195614050, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_AnimatedTarget
+      value: 
+      objectReference: {fileID: 133473307}
+    - target: {fileID: 602805690195614050, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445929205680001509, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 2139218191}
+    - target: {fileID: 6629276913638520981, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 2139218191}
     - target: {fileID: 7450303375066787473, guid: 95f70cd9cdc3e6147a661a8e61f4bd14, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
