@@ -18,7 +18,7 @@ TagManager:
   - Enemy
   - Hazards
   - Interactables
-  - 
+  - Setoshow
   - 
   - 
   - 
@@ -61,4 +61,7 @@ TagManager:
     locked: 0
   - name: Interactables
     uniqueID: 2383404551
+    locked: 0
+  - name: Setoshow
+    uniqueID: 1361098137
     locked: 0
