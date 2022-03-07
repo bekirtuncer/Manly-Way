@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Success.unity
     guid: 57cfefd1586490442ac0e3f0a58236a7
+  - enabled: 1
+    path: Assets/Levels/Seto Scene.unity
+    guid: 55842eba3eb60854ca33b699943cd313
   m_configObjects: {}

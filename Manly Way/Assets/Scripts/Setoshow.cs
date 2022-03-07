@@ -9,9 +9,12 @@ public class Setoshow : MonoBehaviour
     [SerializeField] float levelLoadDelay = 2f;
     [SerializeField] float levelExitSlowMoFactor = 0.2f;
 
+    // Cached references
+    [SerializeField] AudioClip setoPickupSFX;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        AudioSource.PlayClipAtPoint(setoPickupSFX, Camera.main.transform.position);
         StartCoroutine(LoadNextLevel());
     }
 

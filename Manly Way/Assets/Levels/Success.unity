@@ -123,51 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &56497913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5001429196859405495, guid: fc03af8f6089c0f429c3854fe99a6033, type: 3}
-  m_PrefabInstance: {fileID: 1792489924}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &56497914
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56497913}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.5580342, y: -0.39682436}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.3125, y: 2.75}
-    newSize: {x: 0.69, y: 0.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.0138974, y: 1.9563513}
-  m_EdgeRadius: 0
---- !u!114 &56497915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56497913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0de896a4e6997b6469456f1e9f59dd5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelLoadDelay: 2
-  levelExitSlowMoFactor: 0.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,10 +3779,6 @@ PrefabInstance:
     - target: {fileID: 5001429196859405497, guid: fc03af8f6089c0f429c3854fe99a6033, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5001429196859405497, guid: fc03af8f6089c0f429c3854fe99a6033, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5001429196859405497, guid: fc03af8f6089c0f429c3854fe99a6033, type: 3}
       propertyPath: m_LocalPosition.x
